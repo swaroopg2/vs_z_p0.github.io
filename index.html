@@ -60,28 +60,36 @@
       -webkit-animation-name: fadeIn; /* Fade in the background */
       -webkit-animation-duration: 0.4s;
       animation-name: fadeIn;
-      animation-duration: 0.4s
+      animation-duration: 0.4s;
     }
 
     /* Modal Content */
     .modal-content {
       bottom: 0;
       background-color: #fefefe;
-      width: 50%;
+      width: 40%;
+      height: 50%;
       -webkit-animation-name: slideIn;
       -webkit-animation-duration: 0.4s;
       animation-name: slideIn;
       animation-duration: 0.4s;
       margin-top: 14%;
-      margin-left: 25%;
+      margin-left: 30%;
+      background-image: url("./images/contact_us.jpeg");
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      overflow-y:scroll;
+      overflow-x:scroll;
     }
 
     /* The Close Button */
     .close {
-      color: white;
-      float: right;
-      font-size: 28px;
+      color: darkolivegreen;
+      float: left;
+      font-size: 20px;
       font-weight: bold;
+      margin-left: 96%;
     }
 
     .close:hover,
@@ -99,7 +107,7 @@
     }
 
     .modal-body {
-        padding: 2px 16px;
+        padding: 5px 25px;
         font-style: oblique;
         color: darkolivegreen;
     }
@@ -207,19 +215,14 @@
 
         <!-- Modal content -->
         <div class="modal-content">
-            <div class="modal-header">
                 <span class="close">&times;</span>
-                <h3>Contact Us</h3>
-            </div>
             <div class="modal-body">
                 <label>NAME : Pradeep S</label></br></br>
                 <label>CONTACT : +91 8861438665, +91 8660068435</label></br></br>
                 <label class="text-wrap">GMAIL : pradeeppradeep9922@gmail.com</label></br></br>
-                <label>ADDRESS : #182, 2nd Cross, 2nd Main Road, Balaji Layout, Behind Anupama Hospital, </br>
-                       College Stop, Byadarahalli, Bangalore - 560091</label></br></br>
-            </div>
-            <div class="modal-footer">
-                <h4>Any time at your service!!!</h4>
+                <label>ADDRESS : #182, 2nd Cross, 2nd Main Road, Balaji Layout, </br>
+                       Behind Anupama Hospital, College Stop, Byadarahalli, </br>
+                       Bangalore - 560091</label></br></br>
             </div>
         </div>
 
